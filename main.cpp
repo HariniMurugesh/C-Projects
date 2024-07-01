@@ -1,11 +1,4 @@
-/******************************************************************************
 
-Welcome to GDB Online.
-GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
-C#, OCaml, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
-Code, Compile, Run and Debug online from anywhere in world.
-
-*******************************************************************************/
 #include <iostream>
 #include <map>
 #include <string>
@@ -59,6 +52,16 @@ int main() {
     dict.addWord("Bitte", "Please");
     dict.addWord("Katze", "Cat");
     dict.addWord("Hund", "Dog");
+    dict.addWord("Apfel", "Apple");
+    dict.addWord("Auto", "Car");
+    dict.addWord("Haus", "House");
+    dict.addWord("Stadt", "City");
+    dict.addWord("Schule", "School");
+    dict.addWord("Wasser", "Water");
+    dict.addWord("Sommer", "Summer");
+    dict.addWord("Familie", "Family");
+    dict.addWord("Buch", "Book");
+    dict.addWord("Computer", "Computer");
 
     std::string input;
     int choice;
